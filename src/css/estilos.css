@@ -1,0 +1,90 @@
+body{
+    font-family: "Oxanium", cursive;
+    background: #000000;
+    color: #000000;
+}
+
+body::before{
+    content: "";
+    background-image: url(../imagens/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
+}
+
+.cabecalho{
+    display:flex;
+    justify-content: center;
+}
+
+.selecao-de-membros{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    min-height: calc(100vh - 152px);
+    justify-content: center;
+}
+
+.selecao-de-membros .lista-de-membros{
+    display:flex;
+    flex-wrap:wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.selecao-de-membros .membros{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 585px;
+    gap: 25px;
+}
+
+.selecao-de-membros .membros .titulo{
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #c8f8fc;
+    width: 100%;
+    text-align: center;
+}
+
+.lista-de-membros .membro img{
+    width: 100%;
+    height: 100%;
+    width: 85px;
+}
+
+
+
+.lista-de-membros .membro.selecionado{
+    box-shadow: 0px 0px 24px 2px #4bd5ff;
+}
+
+.membro-selecionado{
+    text-align: center;
+    max-height: 530px;
+}
+
+.membro-selecionado .nome-membro{
+    border-bottom: 2px solid #c8f8fc;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.membro-selecionado .descricao-membro{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 20px;
+    width: 420px;
+}
+
+
+

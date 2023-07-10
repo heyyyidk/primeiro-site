@@ -1,0 +1,41 @@
+@media (max-width: 1050px){
+    .cabecalho .logo{
+        width: 20px;
+        max-width: 190px
+    }
+
+    .selecao-de-membros{
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+
+    .selecao-de-membros .membros{
+        margin-top: 37px;
+    }
+
+    .selecao-de-membros .membros .titulo{
+        font-size: 15px;
+    }
+
+    .selecao-de-membros .lista-de-membros{
+        gap: 9px;
+    }
+
+    .selecao-de-membros .membro img{
+        width: 50px;
+
+    }
+
+    .membro-selecionado .membro-grande{
+        width: 140px;
+    }
+
+    .membro-selecionado .descricao-membro{
+        width: 80%;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+
+
+}
